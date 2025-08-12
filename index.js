@@ -37,7 +37,7 @@ client.on(Events.GuildMemberAdd, async member => {
     const welcomeEmoji = client.emojis.cache.get('986562286690918401');
 
     const welcomeEmbed = new EmbedBuilder()
-      .setColor(0x2B2D31)  // Dark theme color
+      .setColor(0xFFD700)  // Dark theme color
       .setTitle('NEXT GENERATION GAMING COMMUNITY')
       .setDescription(`𝙃𝙀𝙔 ${swordEmoji ? swordEmoji.toString() : '<:40242wingandswordids:1356418634725069030>'} ${member.user.toString()} ${welcomeEmoji ? welcomeEmoji.toString() : '<a:emoji7:986562286690918401>'}\n𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝑩𝑨𝑵𝑮𝑳𝑨 𝑹𝑷 𝑯𝑼𝑩 𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙅𝙊𝙄𝙉𝙄𝙉𝙂!\n─────────────────────`)
       .addFields(
